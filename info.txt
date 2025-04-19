@@ -13,3 +13,14 @@ Next Future Steps:
     3. Implement advanced features of the GET methods
     4. Implement the POST method
     
+How to test it?
+    1. If you want to test in the same machine, you need to run: > python3 webServer.py 
+    2. Then you can either:
+        2.1 Test with curl for an existing file: curl localhost:12000/main.html
+        2.2 Test with curl for a non existing method: curl -X FAKE localhost:12000/ or curl -X PUT localhost:12000/
+        2.3 You can open in your browser: http://localhost:12000/main.html 
+    3. If you have access to two computers, you can look for your primary physical network interface. On a Mac I did:
+        3.1 ifconfig
+        3.2 Looked for en0 (primary physical network interface)
+        3.3 Used the IP, ipv4 format.
+
