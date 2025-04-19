@@ -1,0 +1,15 @@
+What is it?
+    This is a minimal webServer written in Python to test what I learned from Computer Networking from Kurose and Ross. 
+    It was not based on their skeleton, I thought of it myself. 
+    
+    I also divided the functions minimally, just enough to have clarity on the parts.
+    
+    It handles one connection at a time and implements the GET and HEAD methods only.
+    
+
+Next Future Steps:
+    1. Make it multithread
+    2. Exit gracefully
+    3. Implement advanced features of the GET methods
+    4. Implement the POST method
+    
